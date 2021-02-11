@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rogeriomattos/sp-events-parse/issues"
   },
-  "homepage": "https://github.com/rogeriomattos/sp-events-parse#readme"
+  "homepage": "https://github.com/rogeriomattos/sp-events-parse#readme",
+  "dependencies": {
+    "xmldom": "^0.4.0"
+  }
 }
