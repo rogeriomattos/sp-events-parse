@@ -1,10 +1,19 @@
 const { DOMParser } = require('xmldom');
-
+/**
+ * 
+ * @param {string} xml 
+ * @return {JSON} 
+ */
 const xmlStringToJSON = (xml) => {
     var xmlNode = new DOMParser().parseFromString(xml, 'text/xml');
     return xmlToJSON(xmlNode);
 };
 
+/**
+ * 
+ * @param {Document} xml
+ * @return {JSON} 
+ */
 const xmlToJSON = (xml) => {
     var obj = {};
 
